@@ -1,0 +1,13 @@
+.change{
+  border: 1px solid lightgray;
+  border-bottom: 7px solid rgba(175, 19, 175, 1);
+}
+.edit{
+  border: 1px solid lightgray;
+}
+.change-pw{
+  position: absolute;
+}
+.nothing{
+  margin-bottom: 700px !important;
+}
