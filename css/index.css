@@ -1,13 +1,35 @@
-.change{
+@media only screen and (min-width: 992px){
+ .change{
   border: 1px solid lightgray;
-  border-bottom: 7px solid rgba(175, 19, 175, 1);
 }
 .edit{
   border: 1px solid lightgray;
+} 
+.pw{
+  display: all;
+}
+}
+
+.change{
+  border-bottom: 10px solid rgba(175, 19, 175, 1);
 }
 .change-pw{
   position: absolute;
 }
 .nothing{
   margin-bottom: 700px !important;
+}
+
+@media only screen and (max-width:426px){
+  .change-pw{
+    display: none;
+  }
+  .label{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+.form-input-1{
+  border: 0.5px solid rgba(26, 26, 26, 1);
 }
