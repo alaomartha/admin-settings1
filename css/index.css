@@ -15,15 +15,20 @@
 }
 .change-pw{
   position: absolute;
+  width:1085px; 
+  height:1395px;
+}
+.pass{
+  height:634px;
 }
 .nothing{
   margin-bottom: 700px !important;
 }
 
 @media only screen and (max-width:426px){
-  .change-pw{
+  /* .change-pw{
     display: none;
-  }
+  } */
   .label{
     font-weight: 600;
     font-size: 18px;
@@ -32,4 +37,12 @@
 }
 .form-input-1{
   border: 0.5px solid rgba(26, 26, 26, 1);
+  width:421px;
+}
+.btn{
+  background-color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  text-align: center;
+  color: black;
+  margin-top: 100px !important;
 }

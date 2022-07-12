@@ -88,65 +88,78 @@
         <div class="nothing"></div>
     </div>
   </div>
-<div class="pw width-75">
+<div class="pw width-75 d-none d-md-block">
   <div class="container bdr-rad-2 mt-5 d-flex label">
-  <div class="p-3 change bdr-rad-2 col-lg-4">
+    <div class="p-3 change bdr-rad-2 col-lg-4">
       <a href="#" class="text-decoration-none "><button class="input-button ff-montserrat fw-700 fs-footer p-2">Change Password</button></a>
-  </div>
-  <div class="p-3 edit mx-5 bdr-rad-2 col-lg-4">
+    </div>
+    <div class="p-3 edit mx-5 bdr-rad-2 col-lg-4">
       <a href="#" class="text-decoration-none "><button class="input-button ff-montserrat fw-700 fs-footer p-2">Edit Profile</button></a>
+    </div>
   </div>
-  </div>
-  <div class="container mt-3 change-pw bg-neutral-4 mx-3 w-70" style="width:1085px; height:1000px">
+  <div class="container mt-3 change-pw bg-neutral-4 mx-3 w-70">
     <div class="password p-4">
-      <div class="pass lg-bg-white" style="height:634px;">
+      <div class="pass lg-bg-white">
         <form action="form" class="mx-3">
         <div>
           <label for="change-pw" class="fw-500 ff-monserrat fs-body-1 mt-5">Change Password</label> <br>
-          <input type="text" placeholder="Password" class="dark-border lg-hms-border box-shad-none lg-box-shad-1 bdr-rad-2 form-input-1 p-3 w-60 box-shad-1 fs-button" style="width:421px ;">
+          <input type="text" placeholder="Password" class="dark-border lg-hms-border box-shad-none lg-box-shad-1 bdr-rad-2 form-input-1 p-3 w-60 box-shad-1 fs-button">
         </div>
         <div>
           <label for="change-pw" class="fw-500 ff-monserrat fs-body-1 mt-5 p-2">New Password</label> <br>
-          <input type="text" placeholder="Password" class="dark-border lg-hms-border box-shad-none lg-box-shad-1 bdr-rad-2 form-input-1 p-3 w-60 box-shad-1 fs-button" style="width:421px ;">
+          <input type="text" placeholder="Password" class="dark-border lg-hms-border box-shad-none lg-box-shad-1 bdr-rad-2 form-input-1 p-3 w-60 box-shad-1 fs-button">
         </div>
         <div>
           <label for="change-pw" class="fw-500 ff-monserrat fs-body-1 mt-5 p-2">Confirm Password</label> <br>
-          <input type="text" placeholder="Confirm Password" class="dark-border lg-hms-border box-shad-none lg-box-shad-1 bdr-rad-2 form-input-1 p-3 w-60 box-shad-1 fs-button" style="width:421px ;">
+          <input type="text" placeholder="Confirm Password" class="dark-border lg-hms-border box-shad-none lg-box-shad-1 bdr-rad-2 form-input-1 p-3 w-60 box-shad-1 fs-button">
         </div>
         <div>
             <input type="submit" value="Update Password" class="primary-btn mt-5 p-3 box-shad-1 bdr-rad-2 width-300px fs-body-1 fw-500 ff-montserrat fw-bold ">
         </div>
-      </form>
+        </form>
+      </div>
+      <div>
+        <input type="submit" value="Profile Picture" class="btn mt-5 p-3 box-shad-1 bdr-rad-2 width-300px fs-body-2 fw-700 ff-montserrat fw-bold ">
+      </div>
+      <div class="picture lg-bg-white mt-3 p-4">
+        <img src="./img/mt-dp.png" class="rounded mx-3">
+        <p class=" mx-3">New Profile Picture</p>
+        <div class="mx-3">
+           <button class="fs-body-2 opacity-50 ff-montserrat mt-5 p-3 bdr-rad-2 width-300px lg-bg-neutral-3">Choose File</button>
+           <button class="fs-body-2 opacity-50 ff-montserrat width-300px lg-bg-white mt-5 p-3">No file chosen</button>
+        </div>
+        <input type="submit" value="Change Profile Picture" class="primary-btn mx-3 mt-5 p-3 box-shad-1 bdr-rad-2 width-300px fs-body-2 fw-700 ff-montserrat fw-bold mb-5">
       </div>
     </div>
   </div>
 </div>
 </div>
 
-<div class="small-screen ff-montserrat mt-5 d-lg-none d-md-none w-100">
+<!-- for small screen -->
+<div class="small-screen ff-montserrat mt-5 d-block d-md-none w-100">
     <div class="short-input width-100 lg-width-48 mb-4 position-relative mx-4">
         <p class="fs-copyright mb-1">Current Password</p>
-           <input type="text" name="first-name" id="" class="form-input-1 width-70 fs-tiny dark-border lg-hms-border box-shad-none lg-box-shad-1 bdr-rad-2 p-3 mt-1 text-black">
+           <input type="text" name="first-name" id="" class="form-input-1 fs-tiny dark-border lg-hms-border box-shad-none lg-box-shad-1 bdr-rad-2 p-3 mt-1 text-black w-75">
            <img src="img/password-input.png" alt="" class="input-icon">
-           <div id="password-toggler2" class="password-toggler width-40" role="button" onclick="passwordToggleTwo()">
+           <div id="password-toggler2" class="password-toggler width-30" role="button" onclick="passwordToggleTwo()">
                <img src="img/eye-open.png" id="eye-open2" class="password-eyes eye-open">
                <img src="img/eye-closed.png" id="eye-closed2" class="password-eyes eye-closed">
            </div>
     </div>
     <div class="short-input width-100 lg-width-48 mb-4 position-relative mx-4">
         <p class="fs-copyright mb-1">New Password</p>
-        <input type="text" name="first-name" id="" class="form-input-1 width-70 fs-tiny dark-border lg-hms-border box-shad-none lg-box-shad-1 bdr-rad-2 p-3  mt-1 text-black">
+        <input type="text" name="first-name" id="" class="form-input-1 width-70 fs-tiny dark-border lg-hms-border box-shad-none lg-box-shad-1 bdr-rad-2 p-3  mt-1 text-black w-75">
         <img src="img/password-input.png" alt="" class="input-icon">
-           <div id="password-toggler2" class="password-toggler width-40" role="button" onclick="passwordToggleTwo()">
+           <div id="password-toggler2" class="password-toggler width-30" role="button" onclick="passwordToggleTwo()">
                <img src="img/eye-open.png" id="eye-open2" class="password-eyes eye-open">
                <img src="img/eye-closed.png" id="eye-closed2" class="password-eyes eye-closed">
            </div>
     </div>
     <div class="short-input width-100 lg-width-48 mb-4 position-relative mx-4">
         <p class="fs-copyright mb-1">Confirm New Password</p>
-        <input type="text" name="first-name" id="" class="form-input-1 width-70 fs-tiny dark-border lg-hms-border box-shad-none lg-box-shad-1 bdr-rad-2 p-3 mt-1 text-black">
+        <input type="text" name="first-name" id="" class="form-input-1 width-70 fs-tiny dark-border lg-hms-border box-shad-none lg-box-shad-1 bdr-rad-2 p-3 mt-1 text-black w-75">
         <img src="img/password-input.png" alt="" class="input-icon">
-           <div id="password-toggler2" class="password-toggler width-40" role="button" onclick="passwordToggleTwo()">
+           <div id="password-toggler2" class="password-toggler width-30" role="button" onclick="passwordToggleTwo()">
                <img src="img/eye-open.png" id="eye-open2" class="password-eyes eye-open">
                <img src="img/eye-closed.png" id="eye-closed2" class="password-eyes eye-closed">
            </div>
